@@ -1,0 +1,59 @@
+
+.cool-background {
+    background-color: hsl(268, 41%, 15%);
+    background-image: radial-gradient(650px circle at 0% 0%,
+        hsl(268, 41%, 35%) 15%,
+        hsl(268, 41%, 30%) 35%,
+        hsl(268, 41%, 20%) 75%,
+        hsl(268, 41%, 19%) 80%,
+        transparent 100%),
+      radial-gradient(1250px circle at 100% 100%,
+        hsl(268, 41%, 45%) 15%,
+        hsl(268, 41%, 30%) 35%,
+        hsl(268, 41%, 20%) 75%,
+        hsl(268, 41%, 19%) 80%,
+        transparent 100%);
+}
+
+.form-outline.required .control-label:after {
+    content:" *";
+    color:rgb(255, 98, 98);
+}
+
+#radius-shape-1 {
+    height: 220px;
+    width: 220px;
+    top: -60px;
+    left: -130px;
+    background: radial-gradient(rgb(268, 15, 125), #420a77);
+    overflow: hidden;
+}
+
+#radius-shape-2 {
+    border-radius: 100%;
+    bottom: 10px;
+    right: -110px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(rgb(268, 15, 125), #420a77);
+    overflow: hidden;
+}
+
+#radius-shape-3 {
+    bottom: -250px;
+    right: 800px;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(rgb(268, 15, 125), #420a77);
+    overflow: hidden;
+}
+
+.bg-glass {
+    background-color: hsla(0, 0%, 16%, 0.89) !important;
+    backdrop-filter: saturate(200%) blur(25px);
+}
+
+.user a {
+    color: aliceblue !important;
+    text-decoration: none;
+}

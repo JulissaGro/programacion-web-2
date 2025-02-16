@@ -1,0 +1,26 @@
+
+.cool-background {
+    background-color: hsl(268, 41%, 15%);
+    background-image: radial-gradient(650px circle at 0% 0%,
+        hsl(268, 41%, 35%) 15%,
+        hsl(268, 41%, 30%) 35%,
+        hsl(268, 41%, 20%) 75%,
+        hsl(268, 41%, 19%) 80%,
+        transparent 100%),
+      radial-gradient(1250px circle at 100% 100%,
+        hsl(268, 41%, 45%) 15%,
+        hsl(268, 41%, 30%) 35%,
+        hsl(268, 41%, 20%) 75%,
+        hsl(268, 41%, 19%) 80%,
+        transparent 100%);
+}
+
+.bg-glass {
+    background-color: hsla(0, 0%, 16%, 0.89) !important;
+    backdrop-filter: saturate(200%) blur(25px);
+}
+
+.user a {
+    color: aliceblue !important;
+    text-decoration: none;
+}
